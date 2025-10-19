@@ -2,7 +2,7 @@ import requests
 import csv
 from datetime import datetime
 
-api_key="d785cbca52b02b5f39446459063bde97"
+api_key=""
 city="coimbatore"
 
 url=f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
